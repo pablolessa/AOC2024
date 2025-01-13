@@ -1,4 +1,4 @@
-# Advent of Code 2024:  50 Shades of Dijstra
+# Advent of Code 2024:  50 Shades of Dijkstra
 
 I had heard of a Advent of code a few years back but had never tried to complete it.
 
