@@ -1,0 +1,20 @@
+state A
+on A goto A output A
+on < goto ^
+on v goto >
+state ^
+on A goto ^ output ^
+on > goto A
+on v goto v
+state >
+on A goto > output >
+on < goto v
+on ^ goto A
+state v
+on A goto v output v
+on < goto <
+on > goto >
+on ^ goto ^
+state <
+on A goto < output <
+on > goto v

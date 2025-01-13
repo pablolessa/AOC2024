@@ -1,0 +1,52 @@
+state A
+on A goto A output A
+on < goto 0
+on ^ goto 3
+state 0
+on A goto 0 output 0
+on > goto A
+on ^ goto 2
+state 3
+on A goto 3 output 3
+on v goto A
+on < goto 2
+on ^ goto 6
+state 2
+on A goto 2 output 2
+on v goto 0
+on < goto 1
+on > goto 3
+on ^ goto 5
+state 1
+on A goto 1 output 1
+on > goto 2
+on ^ goto 4
+state 4
+on A goto 4 output 4
+on v goto 1
+on > goto 5
+on ^ goto 7
+state 5
+on A goto 5 output 5
+on < goto 4
+on v goto 2
+on > goto 6
+on ^ goto 8
+state 6
+on A goto 6 output 6
+on < goto 5
+on v goto 3
+on ^ goto 9
+state 7
+on A goto 7 output 7
+on > goto 8
+on v goto 4
+state 8
+on A goto 8 output 8
+on < goto 7
+on > goto 9
+on v goto 5
+state 9
+on A goto 9 output 9
+on < goto 8
+on v goto 6

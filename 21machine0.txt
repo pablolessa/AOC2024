@@ -1,0 +1,6 @@
+state .
+on A goto . output A
+on < goto . output <
+on > goto . output >
+on ^ goto . output ^
+on v goto . output v

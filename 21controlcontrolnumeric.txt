@@ -1,0 +1,980 @@
+state AAA
+on A goto AAA output A
+on < goto ^AA
+on v goto >AA
+state ^^2
+on > goto A^2
+on v goto v^2
+state <v6
+on A goto <<6
+on > goto vv6
+state vvA
+on < goto <vA
+on > goto >vA
+on ^ goto ^vA
+state ^v2
+on A goto ^^2
+on > goto Av2
+on v goto vv2
+state ^<9
+on > goto A<9
+on v goto v<9
+state <>3
+on A goto <v3
+on > goto v>3
+state ^^3
+on > goto A^3
+on v goto v^3
+state >A3
+on < goto vA3
+on ^ goto AA3
+state ^>4
+on A goto ^A4
+on > goto A>4
+on v goto v>4
+state >^9
+on A goto >A9
+on < goto v^9
+on ^ goto A^9
+state ^A4
+on > goto AA4
+on v goto vA4
+state ^A1
+on > goto AA1
+on v goto vA1
+state >^8
+on A goto >A8
+on < goto v^8
+on ^ goto A^8
+state AA5
+on A goto AA5 output 5
+on < goto ^A5
+on v goto >A5
+state A>9
+on < goto ^>9
+on v goto >>9
+state >^1
+on A goto >A1
+on < goto v^1
+on ^ goto A^1
+state A^1
+on A goto A^4
+on < goto ^^1
+on v goto >^1
+state >>7
+on < goto v>7
+on ^ goto A>7
+state v^9
+on A goto vv9
+on < goto <^9
+on > goto >^9
+on ^ goto ^^9
+state ^A8
+on > goto AA8
+on v goto vA8
+state ^^6
+on > goto A^6
+on v goto v^6
+state A>7
+on A goto A>8
+on < goto ^>7
+on v goto >>7
+state ^>0
+on A goto ^A0
+on > goto A>0
+on v goto v>0
+state >v0
+on A goto >>0
+on < goto vv0
+on ^ goto Av0
+state v>9
+on < goto <>9
+on > goto >>9
+on ^ goto ^>9
+state v^1
+on A goto vv1
+on < goto <^1
+on > goto >^1
+on ^ goto ^^1
+state A<4
+on < goto ^<4
+on v goto ><4
+state v>7
+on < goto <>7
+on > goto >>7
+on ^ goto ^>7
+state v<4
+on < goto <<4
+on > goto ><4
+on ^ goto ^<4
+state <A5
+on A goto <^5
+on > goto vA5
+state <>9
+on A goto <v9
+on > goto v>9
+state <^1
+on > goto v^1
+state <>7
+on A goto <v7
+on > goto v>7
+state ^^A
+on > goto A^A
+on v goto v^A
+state <<4
+on > goto v<4
+state ^<0
+on > goto A<0
+on v goto v<0
+state A<A
+on A goto A<0
+on < goto ^<A
+on v goto ><A
+state v<A
+on < goto <<A
+on > goto ><A
+on ^ goto ^<A
+state >AA
+on < goto vAA
+on ^ goto AAA
+state ^>6
+on A goto ^A6
+on > goto A>6
+on v goto v>6
+state ^A6
+on > goto AA6
+on v goto vA6
+state vAA
+on A goto v>A
+on < goto <AA
+on > goto >AA
+on ^ goto ^AA
+state <<A
+on > goto v<A
+state >>A
+on < goto v>A
+on ^ goto A>A
+state <AA
+on A goto <^A
+on > goto vAA
+state >v5
+on A goto >>5
+on < goto vv5
+on ^ goto Av5
+state v>A
+on < goto <>A
+on > goto >>A
+on ^ goto ^>A
+state ^>5
+on A goto ^A5
+on > goto A>5
+on v goto v>5
+state A^0
+on A goto A^2
+on < goto ^^0
+on v goto >^0
+state vv5
+on < goto <v5
+on > goto >v5
+on ^ goto ^v5
+state Av9
+on A goto Av6
+on < goto ^v9
+on v goto >v9
+state ><8
+on A goto >v8
+on < goto v<8
+on ^ goto A<8
+state vv9
+on < goto <v9
+on > goto >v9
+on ^ goto ^v9
+state ^^7
+on > goto A^7
+on v goto v^7
+state AA9
+on A goto AA9 output 9
+on < goto ^A9
+on v goto >A9
+state v<8
+on < goto <<8
+on > goto ><8
+on ^ goto ^<8
+state AA0
+on A goto AA0 output 0
+on < goto ^A0
+on v goto >A0
+state <v9
+on A goto <<9
+on > goto vv9
+state AA7
+on A goto AA7 output 7
+on < goto ^A7
+on v goto >A7
+state ^<1
+on > goto A<1
+on v goto v<1
+state >v3
+on A goto >>3
+on < goto vv3
+on ^ goto Av3
+state Av3
+on A goto AvA
+on < goto ^v3
+on v goto >v3
+state >v4
+on A goto >>4
+on < goto vv4
+on ^ goto Av4
+state <A9
+on A goto <^9
+on > goto vA9
+state ><7
+on A goto >v7
+on < goto v<7
+on ^ goto A<7
+state A<7
+on < goto ^<7
+on v goto ><7
+state <A0
+on A goto <^0
+on > goto vA0
+state vv3
+on < goto <v3
+on > goto >v3
+on ^ goto ^v3
+state vv4
+on < goto <v4
+on > goto >v4
+on ^ goto ^v4
+state >>2
+on < goto v>2
+on ^ goto A>2
+state v<7
+on < goto <<7
+on > goto ><7
+on ^ goto ^<7
+state ^A2
+on > goto AA2
+on v goto vA2
+state A^5
+on A goto A^8
+on < goto ^^5
+on v goto >^5
+state >v7
+on A goto >>7
+on < goto vv7
+on ^ goto Av7
+state v>2
+on < goto <>2
+on > goto >>2
+on ^ goto ^>2
+state <v3
+on A goto <<3
+on > goto vv3
+state <v4
+on A goto <<4
+on > goto vv4
+state <<7
+on > goto v<7
+state A^2
+on A goto A^5
+on < goto ^^2
+on v goto >^2
+state ^vA
+on A goto ^^A
+on > goto AvA
+on v goto vvA
+state ><2
+on A goto >v2
+on < goto v<2
+on ^ goto A<2
+state A<9
+on A goto A<8
+on < goto ^<9
+on v goto ><9
+state vv7
+on < goto <v7
+on > goto >v7
+on ^ goto ^v7
+state <>2
+on A goto <v2
+on > goto v>2
+state v<2
+on < goto <<2
+on > goto ><2
+on ^ goto ^<2
+state <^5
+on > goto v^5
+state A^3
+on A goto A^6
+on < goto ^^3
+on v goto >^3
+state >v6
+on A goto >>6
+on < goto vv6
+on ^ goto Av6
+state <^2
+on > goto v^2
+state >>1
+on < goto v>1
+on ^ goto A>1
+state <<2
+on > goto v<2
+state >>3
+on < goto v>3
+on ^ goto A>3
+state v>1
+on < goto <>1
+on > goto >>1
+on ^ goto ^>1
+state A>4
+on A goto A>5
+on < goto ^>4
+on v goto >>4
+state <^3
+on > goto v^3
+state ><3
+on A goto >v3
+on < goto v<3
+on ^ goto A<3
+state A<3
+on A goto A<2
+on < goto ^<3
+on v goto ><3
+state ^A3
+on > goto AA3
+on v goto vA3
+state <>1
+on A goto <v1
+on > goto v>1
+state AA4
+on A goto AA4 output 4
+on < goto ^A4
+on v goto >A4
+state AA1
+on A goto AA1 output 1
+on < goto ^A1
+on v goto >A1
+state v<3
+on < goto <<3
+on > goto ><3
+on ^ goto ^<3
+state ^^9
+on > goto A^9
+on v goto v^9
+state A^6
+on A goto A^9
+on < goto ^^6
+on v goto >^6
+state vA1
+on A goto v>1
+on < goto <A1
+on > goto >A1
+on ^ goto ^A1
+state A>0
+on A goto A>A
+on < goto ^>0
+on v goto >>0
+state <>4
+on A goto <v4
+on > goto v>4
+state ^^8
+on > goto A^8
+on v goto v^8
+state ^^1
+on > goto A^1
+on v goto v^1
+state <<3
+on > goto v<3
+state ^>7
+on A goto ^A7
+on > goto A>7
+on v goto v>7
+state ^v0
+on A goto ^^0
+on > goto Av0
+on v goto vv0
+state <A1
+on A goto <^1
+on > goto vA1
+state <^6
+on > goto v^6
+state A^A
+on A goto A^3
+on < goto ^^A
+on v goto >^A
+state >A5
+on < goto vA5
+on ^ goto AA5
+state >>9
+on < goto v>9
+on ^ goto A>9
+state <^A
+on > goto v^A
+state vA5
+on A goto v>5
+on < goto <A5
+on > goto >A5
+on ^ goto ^A5
+state ><4
+on A goto >v4
+on < goto v<4
+on ^ goto A<4
+state ><6
+on A goto >v6
+on < goto v<6
+on ^ goto A<6
+state A<6
+on A goto A<5
+on < goto ^<6
+on v goto ><6
+state A>6
+on < goto ^>6
+on v goto >>6
+state v<6
+on < goto <<6
+on > goto ><6
+on ^ goto ^<6
+state ^AA
+on > goto AAA
+on v goto vAA
+state AA6
+on A goto AA6 output 6
+on < goto ^A6
+on v goto >A6
+state <<6
+on > goto v<6
+state ><A
+on A goto >vA
+on < goto v<A
+on ^ goto A<A
+state <>6
+on A goto <v6
+on > goto v>6
+state ^>A
+on A goto ^AA
+on > goto A>A
+on v goto v>A
+state <A6
+on A goto <^6
+on > goto vA6
+state ^v5
+on A goto ^^5
+on > goto Av5
+on v goto vv5
+state >v8
+on A goto >>8
+on < goto vv8
+on ^ goto Av8
+state Av8
+on A goto Av5
+on < goto ^v8
+on v goto >v8
+state vv8
+on < goto <v8
+on > goto >v8
+on ^ goto ^v8
+state >>8
+on < goto v>8
+on ^ goto A>8
+state A>8
+on A goto A>9
+on < goto ^>8
+on v goto >>8
+state v>8
+on < goto <>8
+on > goto >>8
+on ^ goto ^>8
+state <v8
+on A goto <<8
+on > goto vv8
+state ^<8
+on > goto A<8
+on v goto v<8
+state <>8
+on A goto <v8
+on > goto v>8
+state >^0
+on A goto >A0
+on < goto v^0
+on ^ goto A^0
+state A<1
+on < goto ^<1
+on v goto ><1
+state ><5
+on A goto >v5
+on < goto v<5
+on ^ goto A<5
+state A<5
+on A goto A<4
+on < goto ^<5
+on v goto ><5
+state >v9
+on A goto >>9
+on < goto vv9
+on ^ goto Av9
+state v^0
+on A goto vv0
+on < goto <^0
+on > goto >^0
+on ^ goto ^^0
+state ^v3
+on A goto ^^3
+on > goto Av3
+on v goto vv3
+state v<5
+on < goto <<5
+on > goto ><5
+on ^ goto ^<5
+state ^v4
+on A goto ^^4
+on > goto Av4
+on v goto vv4
+state ^<7
+on > goto A<7
+on v goto v<7
+state AA2
+on A goto AA2 output 2
+on < goto ^A2
+on v goto >A2
+state <^0
+on > goto v^0
+state <<1
+on > goto v<1
+state >A9
+on < goto vA9
+on ^ goto AA9
+state ^>2
+on A goto ^A2
+on > goto A>2
+on v goto v>2
+state vA2
+on A goto v>2
+on < goto <A2
+on > goto >A2
+on ^ goto ^A2
+state >A0
+on < goto vA0
+on ^ goto AA0
+state <<5
+on > goto v<5
+state AvA
+on < goto ^vA
+on v goto >vA
+state ^v7
+on A goto ^^7
+on > goto Av7
+on v goto vv7
+state vA9
+on A goto v>9
+on < goto <A9
+on > goto >A9
+on ^ goto ^A9
+state >A7
+on < goto vA7
+on ^ goto AA7
+state vA0
+on A goto v>0
+on < goto <A0
+on > goto >A0
+on ^ goto ^A0
+state <A2
+on A goto <^2
+on > goto vA2
+state ^<2
+on > goto A<2
+on v goto v<2
+state vA7
+on A goto v>7
+on < goto <A7
+on > goto >A7
+on ^ goto ^A7
+state >v1
+on A goto >>1
+on < goto vv1
+on ^ goto Av1
+state Av1
+on < goto ^v1
+on v goto >v1
+state <vA
+on A goto <<A
+on > goto vvA
+state <A7
+on A goto <^7
+on > goto vA7
+state vv1
+on < goto <v1
+on > goto >v1
+on ^ goto ^v1
+state ^v6
+on A goto ^^6
+on > goto Av6
+on v goto vv6
+state >^4
+on A goto >A4
+on < goto v^4
+on ^ goto A^4
+state A^4
+on A goto A^7
+on < goto ^^4
+on v goto >^4
+state >^5
+on A goto >A5
+on < goto v^5
+on ^ goto A^5
+state ^>1
+on A goto ^A1
+on > goto A>1
+on v goto v>1
+state ^>3
+on A goto ^A3
+on > goto A>3
+on v goto v>3
+state v^4
+on A goto vv4
+on < goto <^4
+on > goto >^4
+on ^ goto ^^4
+state >^2
+on A goto >A2
+on < goto v^2
+on ^ goto A^2
+state v^5
+on A goto vv5
+on < goto <^5
+on > goto >^5
+on ^ goto ^^5
+state <v1
+on A goto <<1
+on > goto vv1
+state ><9
+on A goto >v9
+on < goto v<9
+on ^ goto A<9
+state >v2
+on A goto >>2
+on < goto vv2
+on ^ goto Av2
+state Av2
+on A goto Av0
+on < goto ^v2
+on v goto >v2
+state AA3
+on A goto AA3 output 3
+on < goto ^A3
+on v goto >A3
+state v^2
+on A goto vv2
+on < goto <^2
+on > goto >^2
+on ^ goto ^^2
+state ^<3
+on > goto A<3
+on v goto v<3
+state v<9
+on < goto <<9
+on > goto ><9
+on ^ goto ^<9
+state vv2
+on < goto <v2
+on > goto >v2
+on ^ goto ^v2
+state vA3
+on A goto v>3
+on < goto <A3
+on > goto >A3
+on ^ goto ^A3
+state <^4
+on > goto v^4
+state A^9
+on < goto ^^9
+on v goto >^9
+state >^3
+on A goto >A3
+on < goto v^3
+on ^ goto A^3
+state A^8
+on < goto ^^8
+on v goto >^8
+state <<9
+on > goto v<9
+state <v2
+on A goto <<2
+on > goto vv2
+state <A3
+on A goto <^3
+on > goto vA3
+state v^3
+on A goto vv3
+on < goto <^3
+on > goto >^3
+on ^ goto ^^3
+state v^8
+on A goto vv8
+on < goto <^8
+on > goto >^8
+on ^ goto ^^8
+state Av0
+on < goto ^v0
+on v goto >v0
+state <^9
+on > goto v^9
+state >>4
+on < goto v>4
+on ^ goto A>4
+state vv0
+on < goto <v0
+on > goto >v0
+on ^ goto ^v0
+state <^8
+on > goto v^8
+state >A4
+on < goto vA4
+on ^ goto AA4
+state v>4
+on < goto <>4
+on > goto >>4
+on ^ goto ^>4
+state >A1
+on < goto vA1
+on ^ goto AA1
+state <v0
+on A goto <<0
+on > goto vv0
+state >^6
+on A goto >A6
+on < goto v^6
+on ^ goto A^6
+state >A8
+on < goto vA8
+on ^ goto AA8
+state vA4
+on A goto v>4
+on < goto <A4
+on > goto >A4
+on ^ goto ^A4
+state AA8
+on A goto AA8 output 8
+on < goto ^A8
+on v goto >A8
+state >>0
+on < goto v>0
+on ^ goto A>0
+state ^A5
+on > goto AA5
+on v goto vA5
+state ^>9
+on A goto ^A9
+on > goto A>9
+on v goto v>9
+state v^6
+on A goto vv6
+on < goto <^6
+on > goto >^6
+on ^ goto ^^6
+state vA8
+on A goto v>8
+on < goto <A8
+on > goto >A8
+on ^ goto ^A8
+state v>0
+on < goto <>0
+on > goto >>0
+on ^ goto ^>0
+state <A4
+on A goto <^4
+on > goto vA4
+state ^<4
+on > goto A<4
+on v goto v<4
+state ^<6
+on > goto A<6
+on v goto v<6
+state AAA
+on A goto AAA output A
+on < goto ^AA
+on v goto >AA
+state >^A
+on A goto >AA
+on < goto v^A
+on ^ goto A^A
+state <A8
+on A goto <^8
+on > goto vA8
+state <>0
+on A goto <v0
+on > goto v>0
+state v^A
+on A goto vvA
+on < goto <^A
+on > goto >^A
+on ^ goto ^^A
+state ><0
+on A goto >v0
+on < goto v<0
+on ^ goto A<0
+state A<0
+on < goto ^<0
+on v goto ><0
+state A>A
+on < goto ^>A
+on v goto >>A
+state v<0
+on < goto <<0
+on > goto ><0
+on ^ goto ^<0
+state ^<A
+on > goto A<A
+on v goto v<A
+state Av5
+on A goto Av2
+on < goto ^v5
+on v goto >v5
+state <<0
+on > goto v<0
+state >>6
+on < goto v>6
+on ^ goto A>6
+state ^v8
+on A goto ^^8
+on > goto Av8
+on v goto vv8
+state >A6
+on < goto vA6
+on ^ goto AA6
+state <>A
+on A goto <vA
+on > goto v>A
+state v>6
+on < goto <>6
+on > goto >>6
+on ^ goto ^>6
+state ^>8
+on A goto ^A8
+on > goto A>8
+on v goto v>8
+state vA6
+on A goto v>6
+on < goto <A6
+on > goto >A6
+on ^ goto ^A6
+state <v5
+on A goto <<5
+on > goto vv5
+state A<8
+on A goto A<7
+on < goto ^<8
+on v goto ><8
+state >>5
+on < goto v>5
+on ^ goto A>5
+state A>5
+on A goto A>6
+on < goto ^>5
+on v goto >>5
+state v>5
+on < goto <>5
+on > goto >>5
+on ^ goto ^>5
+state <<8
+on > goto v<8
+state ^^0
+on > goto A^0
+on v goto v^0
+state ^<5
+on > goto A<5
+on v goto v<5
+state Av4
+on A goto Av1
+on < goto ^v4
+on v goto >v4
+state ^v9
+on A goto ^^9
+on > goto Av9
+on v goto vv9
+state <>5
+on A goto <v5
+on > goto v>5
+state >^7
+on A goto >A7
+on < goto v^7
+on ^ goto A^7
+state A^7
+on < goto ^^7
+on v goto >^7
+state A>2
+on A goto A>3
+on < goto ^>2
+on v goto >>2
+state v^7
+on A goto vv7
+on < goto <^7
+on > goto >^7
+on ^ goto ^^7
+state ^A9
+on > goto AA9
+on v goto vA9
+state Av7
+on A goto Av4
+on < goto ^v7
+on v goto >v7
+state ^A0
+on > goto AA0
+on v goto vA0
+state <^7
+on > goto v^7
+state ><1
+on A goto >v1
+on < goto v<1
+on ^ goto A<1
+state A<2
+on A goto A<1
+on < goto ^<2
+on v goto ><2
+state ^A7
+on > goto AA7
+on v goto vA7
+state v<1
+on < goto <<1
+on > goto ><1
+on ^ goto ^<1
+state <v7
+on A goto <<7
+on > goto vv7
+state >A2
+on < goto vA2
+on ^ goto AA2
+state ^v1
+on A goto ^^1
+on > goto Av1
+on v goto vv1
+state Av6
+on A goto Av3
+on < goto ^v6
+on v goto >v6
+state A>1
+on A goto A>2
+on < goto ^>1
+on v goto >>1
+state A>3
+on < goto ^>3
+on v goto >>3
+state vv6
+on < goto <v6
+on > goto >v6
+on ^ goto ^v6
+state ^^4
+on > goto A^4
+on v goto v^4
+state ^^5
+on > goto A^5
+on v goto v^5
+state >vA
+on A goto >>A
+on < goto vvA
+on ^ goto AvA
+state v>3
+on < goto <>3
+on > goto >>3
+on ^ goto ^>3
